@@ -7,13 +7,16 @@
 // Structure
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 div.structure{
+    @include setFlex(column, start, center);
     @include resetBox;
 }
 
 div.interface{
-    @extend .container-fluid;
+    //@include setFlex(column, start, center);
+    @extend .container-md;
     position: relative;
-    max-width: 100%;
+    width: 100%;
     min-height: 100vh;
     @include resetBox;
+    padding-top : 128px;
 }

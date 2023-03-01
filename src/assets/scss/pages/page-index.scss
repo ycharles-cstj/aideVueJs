@@ -1,0 +1,8 @@
+
+
+main{
+    @extend .row;
+    @include resetBox;
+    @include setFlex(column, start, center);
+    width: 100%;
+}

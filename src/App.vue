@@ -5,9 +5,11 @@ import FooterApp from '@/components/commun/FooterApp/FooterApp.vue'
 </script>
 
 <template>
+<div class="structure">
   <HeaderApp />
   <RouterView />
   <FooterApp />
+</div>
 </template>
 
 <style scoped>
