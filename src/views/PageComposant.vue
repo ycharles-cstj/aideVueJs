@@ -1,9 +1,11 @@
 <script setup>
+    // importations de l'application
     import TitreContent from "@/components/app/TitreContent/TitreContent.vue";
-
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
-
     import ExplicationsExemple from "@/components/app/ExplicationsExemple/ExplicationsExemple.vue";
+
+    // importation de l'exemple
+    import CreationComposant from '@/components/exercice/CreationComposant/CreationComposant.vue';
 
 </script>
 
@@ -39,10 +41,11 @@
         </TitreContent>
 
         <ExplicationsExemple>
-            <p>Dans ce premier exemple, démontre la création du composant « ComposantApp ». Celui-ci affichera du texte dans une balise de paragraphe. </p>
+            <p>Ce premier exemple démontre la création du composant « CreationComposant ». Celui-ci affichera du texte dans une balise de paragraphe. </p>
         </ExplicationsExemple>
 
 
+        <CreationComposant />
     </main>
 </div>
 </template>
