@@ -4,11 +4,15 @@
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
 
     import ExplicationsExemple from "@/components/app/ExplicationsExemple/ExplicationsExemple.vue";
+
 </script>
 
 <template>
 <div class="interface">
     <main>
+
+
+
         <TitreSection :titreSection="'Création d\'un nouveau composant'">
             <p class="explication">Création et l'intégration d'un nouveau composant dans une page de mon application</p>
         </TitreSection>
@@ -41,7 +45,7 @@
             <p>Dans ce premier exemple, démontre la création du composant « ComposantApp ». Celui-ci affichera du texte dans une balise de paragraphe. </p>
         </ExplicationsExemple>
 
-        
+
     </main>
 </div>
 </template>

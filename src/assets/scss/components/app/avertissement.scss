@@ -1,0 +1,21 @@
+// Consigne des avertissements
+//----------------------------------------------------
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Structure des avertissements
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.avertissement{
+    @include setFlex(column, center, center);
+    width:70%;
+    border: 12px coral solid;
+    padding: 96px 64px;
+
+    & h3{
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+    
+    & > p{
+        
+    }
+}
