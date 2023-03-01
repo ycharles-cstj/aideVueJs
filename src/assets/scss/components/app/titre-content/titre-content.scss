@@ -8,6 +8,7 @@ h2.titreContent{
     position: relative;
     @extend .col-md-12;
     @include setFlex(column, center, center);
+    @include resetBox;
     margin-top: 64px; 
     margin-bottom: 32px;
 
@@ -16,7 +17,7 @@ h2.titreContent{
         width: 70%;
         border-bottom: 3px solid #333;
         content:"";
-        bottom: 60px;
+        bottom: 28px;
     }
 }
 
@@ -24,6 +25,7 @@ h2.titreContent{
 // Titre
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 h2.titreContent p.titre{
+    @include resetBox;
     width: 480px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,6 +39,7 @@ h2.titreContent p.titre{
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 h2.titreContent p{
+    @include resetBox;
 
     &:last-of-type{
         margin-top: 16px;

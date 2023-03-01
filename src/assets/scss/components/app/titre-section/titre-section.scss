@@ -19,10 +19,17 @@ main > header{
 
 header > h1{
     @include resetBox;
-    width: 480px;
     margin-bottom: 16px;
+    padding: 0 32px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 3.4rem;
+}
+
+header > p.explication{
+    @include resetBox;
+    padding : 0 16px;
+    width: 480px;
+    text-align: center;
 }

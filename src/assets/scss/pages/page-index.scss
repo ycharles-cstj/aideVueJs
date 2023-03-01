@@ -1,8 +1,41 @@
+// Page d'accueil
+//----------------------------------------------------
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// structure du contenu
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 main{
     @extend .row;
     @include resetBox;
     @include setFlex(column, start, center);
     width: 100%;
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Table des matières
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.tableMatieres {
+    @include setFlex(column, start, center);
+    @extend .col-md-12;
+
+    & p{
+        @include resetBox;
+        padding-left: 16px;
+        font-size: 2.6rem;
+        font-weight: bold;
+    }
+
+}
+
+ul.listeContenu {
+    @include setFlex(column, start, start);
+    @include resetBox;
+    padding-left: 64px;
+    margin-top: 8px;
+
+    & li {
+        @include resetBox;
+        padding: 8px 0; 
+    }
 }
