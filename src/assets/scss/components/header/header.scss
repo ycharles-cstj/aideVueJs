@@ -4,3 +4,14 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Importations des pages
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.structure > header{
+    @include setFlex(column, center, center);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #333;
+    z-index: 100;
+    color: #fff;
+}

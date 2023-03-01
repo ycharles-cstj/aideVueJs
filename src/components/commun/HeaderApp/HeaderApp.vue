@@ -2,7 +2,7 @@
 
 <template>
 <header>
-    <h3>Header she she she she</h3>
+    navigation ici
 </header>
 </template>
 

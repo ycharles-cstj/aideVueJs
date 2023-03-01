@@ -1,6 +1,13 @@
 // Gestion des composants
 //----------------------------------------------------
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Importation interface support cours
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+@import 'app/titre-content/titre-content.scss';
+@import 'app/titre-section/titre-section.scss';
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// 
+// Importation composants généraux
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
+@import 'header/header';
+@import 'footer/footer';
