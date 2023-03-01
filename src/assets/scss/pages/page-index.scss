@@ -31,12 +31,20 @@ div.tableMatieres {
 ul.listeContenu {
     @include setFlex(column, start, start);
     @include resetBox;
-    padding-left: 64px;
+    //padding-left: 64px;
     margin-top: 8px;
 
     & li {
         @include resetBox;
         padding: 8px 0; 
-        margin-left : 64px;
+        //margin-left : 16px;
+
+        & > a{
+            
+            &:hover{
+                color: coral;
+            }
+
+        }
     }
 }
