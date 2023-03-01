@@ -9,8 +9,8 @@ main > header{
     width: 100%;
     @include setFlex(column, center, center);
     @include resetBox;
-    margin-top: 132px; 
-    margin-bottom: 96px;
+    margin-top: 96px; 
+    margin-bottom: 64px;
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
