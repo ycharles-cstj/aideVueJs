@@ -1,0 +1,19 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'base/base';
+@import 'components/components';
+@import 'pages/pages';
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Structure
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.structure{
+    @include resetBox;
+}
+
+div.interface{
+    @extend .container-fluid;
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    @include resetBox;
+}
