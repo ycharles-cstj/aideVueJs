@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'composant',
       component: () => import("@/views/PageComposant.vue"),
     },
+    {
+      path: '/nouvellepage',
+      name: 'nouvellepage',
+      component: () => import("@/views/PageNouvellePage.vue"),
+    },
   ]
 })
 
