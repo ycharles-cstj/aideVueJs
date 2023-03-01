@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'nouvellepage',
       component: () => import("@/views/PageNouvellePage.vue"),
     },
+    {
+      path: '/souscomposant',
+      name: 'souscomposant',
+      component: () => import("@/views/PageSousComposant.vue"),
+    },
   ]
 })
 
