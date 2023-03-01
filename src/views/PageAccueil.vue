@@ -1,6 +1,4 @@
 <script setup>
-    import TitreContent from "@/components/app/TitreContent/TitreContent.vue";
-
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
 
 
@@ -24,13 +22,6 @@
                 <li> <RouterLink to="/composant"><span>01</span> - Ajouter un composant </RouterLink></li>
             </ul>
         </div>
-
-
-
-        <TitreContent :titre="'Création d\'un composant'">
-            <p>Création d'un composant</p>
-        </TitreContent>
-
     </main>
 </div>
 </template>
