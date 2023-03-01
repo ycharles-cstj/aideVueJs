@@ -10,9 +10,6 @@
 <template>
 <div class="interface">
     <main>
-
-
-
         <TitreSection :titreSection="'Création d\'un nouveau composant'">
             <p class="explication">Création et l'intégration d'un nouveau composant dans une page de mon application</p>
         </TitreSection>
