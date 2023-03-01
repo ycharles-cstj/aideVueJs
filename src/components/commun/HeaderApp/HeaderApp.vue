@@ -2,7 +2,9 @@
 
 <template>
 <header>
-    <nav> Retour à la table des matières</nav>
+    <nav> 
+        <RouterLink to="/">Retour à la table des matières</RouterLink>
+    </nav>
 </header>
 </template>
 
