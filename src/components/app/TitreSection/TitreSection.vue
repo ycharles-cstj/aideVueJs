@@ -13,7 +13,7 @@ const props = defineProps({
 <template>
 
 <header>
-    <h1>{{ props.titreSection }}</h1>
+    <h1> {{ props.titreSection }} </h1>
     <slot></slot>
 </header>
 
