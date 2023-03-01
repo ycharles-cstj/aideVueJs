@@ -11,12 +11,12 @@
 <template>
 <div class="interface">
     <main>
-        <TitreSection :titreSection="'Création d\'un nouveau composant'">
-            <p class="explication">Création et l'intégration d'un nouveau composant dans une page de mon application</p>
+        <TitreSection :titreSection="'Création ...'">
+            <p class="explication">Création ...</p>
         </TitreSection>
 
         <TitreContent :titre="'Explication de la procédure'">
-            <p>Étapes de la procédure de création d'un nouveau composant</p>
+            <p>Étapes de la procédure de ...</p>
         </TitreContent>
 
         <div class="procedures">
@@ -26,11 +26,11 @@
         </div>
 
         <TitreContent :titre="'Exemple'">
-            <p>Création d'un composant qui affiche un contenu temporaire</p>
+            <p>...</p>
         </TitreContent>
 
         <ExplicationsExemple>
-            <p>Ce premier exemple démontre la création du composant « CreationComposant ». Celui-ci affichera du texte dans une balise de paragraphe. </p>
+            <p>... </p>
         </ExplicationsExemple>
 
 

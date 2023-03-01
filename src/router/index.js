@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'souscomposant',
       component: () => import("@/views/PageSousComposant.vue"),
     },
+    {
+      path: '/datacomposant',
+      name: 'datacomposant',
+      component: () => import("@/views/PageIntegrationData.vue"),
+    },
   ]
 })
 
