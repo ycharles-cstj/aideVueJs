@@ -36,13 +36,12 @@
         </AvertissementApp>
 
         <TitreContent :titre="'Exemple'">
-            <p>Création d'un composant qui affiche un contenu temporaire</p>
+            <p>Création d'un sous-composant à un composant existant</p>
         </TitreContent>
 
         <ExplicationsExemple>
-            <p>Ce premier exemple démontre la création du composant « CreationComposant ». Celui-ci affichera du texte dans une balise de paragraphe. </p>
+            <p>Cet exemple vous permet de comprendre comment intégrer un sous-composant dans un composant déjà existant. </p>
         </ExplicationsExemple>
-
 
         <CreationSousComposant />
     </main>
