@@ -39,6 +39,11 @@ ul.listeContenu {
         padding: 8px 0; 
         //margin-left : 16px;
 
+        & span {
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+
         & > a{
             
             &:hover{
