@@ -7,12 +7,32 @@
 <template>
 <div class="interface">
     <main>
-        <TitreSection :titreSection="'Page d\'accueil'">
-            <p>Mon contenu de ma page d'introduction</p>
+        <TitreSection :titreSection="'Création d\'un nouveau composant'">
+            <p class="explication">Création et l'intégration d'un nouveau composant dans une page de mon application</p>
         </TitreSection>
 
-        <TitreContent :titre="'Création d\'un composant'">
-            <p>Création d'un composant</p>
+        <TitreContent :titre="'Explication de la procédure'">
+            <p>Étapes de la procédure de création d'un nouveau composant</p>
+        </TitreContent>
+
+        <div class="procedures">
+            <ol>
+                <li>Ouvrir le dossier « components » du dossier SRC</li>
+                <li>Clic droit sur le dossier et créer un nouveau dossier</li>
+                <li>Renommer ce dossier selon l'exemple suivant : « HeaderApp »</li>
+                <li>Clic droit sur ce nouveau dossier et créer un nouveau fichier</li>
+                <li>Renommer ce fichier selon le nom du dossier, par exemple : « HeaderApp.vue »</li>
+                <li>Ouvrir le dossier « components » de la structure de dossier SCSS</li>
+                <li>Clic droit sur le dossier et créer un nouveau dossier</li>
+                <li>Renommer ce dossier selon l'exemple suivant : « header »</li>
+                <li>Clic droit sur le dossier et créer un nouveau fichier</li>
+                <li>Renommer ce fichier selon le nom de la page, par exemple : « header.scss »</li>
+                <li>Lier le fichier scss dans le fichier « components.scss »</li>
+            </ol>
+        </div>
+
+        <TitreContent :titre="'Exemple'">
+            <p>Création d'un composant qui affiche un contenu temporaire</p>
         </TitreContent>
     </main>
 </div>

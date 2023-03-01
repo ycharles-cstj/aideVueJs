@@ -1,0 +1,23 @@
+// Procédures tutoriel
+//----------------------------------------------------
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Structure des procédures
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.procedures{
+    //@include debug;
+    @extend .col-md-12;
+    padding: 32px;
+    background-color: #f1f1f1;
+    margin-bottom : 64px;
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Liste des procédures
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+div.procedures ol {
+    
+    & li{
+        margin: 16px 0; 
+    }
+}
