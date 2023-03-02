@@ -2,7 +2,7 @@
 
 <template>
     <footer>
-        <h3>Footer</h3>
+        <h3>Guide d'aide Vue.js v.3</h3>
     </footer>
 </template>
 

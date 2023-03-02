@@ -5,8 +5,10 @@
 // Importations des pages
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 div.structure footer{
+    @include setFlex(column, center, start);
     width: 100%;
     height: 64px;
     background-color: #000;
     color: #fff;
+    padding-left: 32px;
 }
