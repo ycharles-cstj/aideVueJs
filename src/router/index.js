@@ -39,7 +39,16 @@ const router = createRouter({
       name: 'databinding',
       component: () => import("@/views/PageDataBinding.vue"),
     },
-  ]
+    {
+      path: '/ajustscroll',
+      name: 'ajustscroll',
+      component: () => import("@/views/PageAjustScroll.vue"),
+    },
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router
