@@ -84,6 +84,11 @@ const router = createRouter({
       name: 'stylecondition',
       component: () => import("@/views/PageStyleCondition.vue"),
     },
+    {
+      path: '/vshow',
+      name: 'vshow',
+      component: () => import("@/views/PageVShow.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

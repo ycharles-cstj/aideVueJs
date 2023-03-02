@@ -46,6 +46,8 @@
                 <li> <RouterLink to="/useevent"><span>14</span> - Utilisation des évènements</RouterLink></li>
 
                 <li> <RouterLink to="/stylecondition"><span>15</span> - Utilisation des styles conditionnels</RouterLink></li>
+
+                <li> <RouterLink to="/vshow"><span>16</span> - Utilisation de la directive v-show</RouterLink></li>
             </ul>
         </div>
     </main>
