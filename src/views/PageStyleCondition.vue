@@ -42,11 +42,11 @@
         </div>
 
         <TitreContent :titre="'Exemple'">
-            <p>...</p>
+            <p>Affectation du style en fonction de conditions</p>
         </TitreContent>
 
         <ExplicationsExemple>
-            <p>... </p>
+            <p>Dans l'exemple ici, nous avons 3 boutons qui vont nous permettre de faire un Reset, Activer une erreur, Activer un avertissement. Selon le cas activé, il y aura un changement dans le visuel du message. </p>
         </ExplicationsExemple>
 
         <button @click="gererMsg(false, false)">Reset</button>
