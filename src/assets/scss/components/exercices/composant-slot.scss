@@ -1,0 +1,16 @@
+
+div.slot{
+    border: 3px coral solid;
+    padding:32px; 
+    margin: 32px 0;
+
+    & p.exemple{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    & div{
+        font-size: 2.6rem;
+        font-weight: 300;
+    }
+}
