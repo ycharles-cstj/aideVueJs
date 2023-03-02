@@ -1,0 +1,10 @@
+button{
+    width:220px;
+    padding: 16px;
+    margin: 8px;
+
+    &:hover{
+        color: #fff;
+        background-color:#333; 
+    }
+}

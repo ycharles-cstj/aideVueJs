@@ -74,6 +74,11 @@ const router = createRouter({
       name: 'axios',
       component: () => import("@/views/PageAxios.vue"),
     },
+    {
+      path: '/useevent',
+      name: 'useevent',
+      component: () => import("@/views/PageEvent.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top
