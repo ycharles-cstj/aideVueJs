@@ -2,7 +2,6 @@
     // importations de l'application
     import TitreContent from "@/components/app/TitreContent/TitreContent.vue";
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
-    import ExplicationsExemple from "@/components/app/ExplicationsExemple/ExplicationsExemple.vue";
     import AvertissementApp from "@/components/app/AvertissementApp/AvertissementApp.vue";
 
     // importation de l'exemple
