@@ -44,6 +44,12 @@ const router = createRouter({
       name: 'ajustscroll',
       component: () => import("@/views/PageAjustScroll.vue"),
     },
+    {
+      path: '/directivevfor',
+      name: 'directivevfor',
+      component: () => import("@/views/PageVFor.vue"),
+    },
+    
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top

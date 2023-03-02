@@ -24,6 +24,7 @@
                 <li> <RouterLink to="/interpolation"><span>05</span> - Interpolations complexes </RouterLink></li>
                 <li> <RouterLink to="/databinding"><span>06</span> - Utilisation du data binding </RouterLink></li>
                 <li> <RouterLink to="/ajustscroll"><span>07</span> - Ajustement du défilement de la page à la navigation </RouterLink></li>
+                <li> <RouterLink to="/directivevfor"><span>08</span> - Ajustement du défilement de la page à la navigation </RouterLink></li>
             </ul>
         </div>
     </main>
