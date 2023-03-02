@@ -64,11 +64,23 @@ const router = createRouter({
       name: 'hook',
       component: () => import("@/views/PageHook.vue"),
     },
+    {
+      path: '/hookroute',
+      name: 'hookroute',
+      component: () => import("@/views/PageHookRoute.vue"),
+    },
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior() {
     // always scroll to top
-    return { top: 0 }
+    //return { top: 0 }
   },
 })
+
+router.beforeEach((to, from, next) => {
+  window.scrollTo({top: 0});
+  console.log('////////////')
+  next();
+});
+
 
 export default router

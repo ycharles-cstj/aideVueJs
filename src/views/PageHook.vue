@@ -78,7 +78,7 @@
             <ol>
                 <li>Cette procédure s'applique à la majorité des hooks débutant par « on... » </li>
                 <li>Vous devez importer le hook souhaité dans la balise « script »</li>
-                <li>Un plus plus bas dans la balise « script », vous devez ajouter le hook en tant que méthode ayant une fonction flèchée à l'intérieur</li>
+                <li>Un plus plus bas dans la balise « script », vous devez ajouter le hook en tant que méthode ayant une fonction fléchée à l'intérieur</li>
                 <li>Vous ajoutez le code que vous souhaitez selon le contexte de développement</li>
             </ol>
         </div>
@@ -100,8 +100,8 @@
             <ol>
                 <li>Il faut dans un premier temps importer le hook ref et watch de 'vue'</li>
                 <li>Ensuite, vous devez insérer une valeur dans une constante. Cette valeur doit être englobée à l'intérieur de ref () afin de la transformer en valeur réactive. En gros, ref() transforme la constante en objet et la valeur est contenue dans la propriété value. </li>
-                <li>Puis, on ajoute watch( ) et ce hook a besoin de 2 paramètre => 1 : la constante à analyser (qui doit être en ref) / 2 : une fonction flèchée ayant en paramètre l'ancienne valeur et la nouvelle valeur. Ensuite on est en mesure de faire une action ou une série d'instructions selon le contexte de développement à l'intérieur de cette fonction.  </li>
-                <li>On récupère la nouvelle valeur à l'aide de ${newValue} et l'ancienne avec ${oldValue} à l'intérieur de la fonction flèchée</li>
+                <li>Puis, on ajoute watch( ) et ce hook a besoin de 2 paramètre => 1 : la constante à analyser (qui doit être en ref) / 2 : une fonction fléchée ayant en paramètre l'ancienne valeur et la nouvelle valeur. Ensuite on est en mesure de faire une action ou une série d'instructions selon le contexte de développement à l'intérieur de cette fonction.  </li>
+                <li>On récupère la nouvelle valeur à l'aide de ${newValue} et l'ancienne avec ${oldValue} à l'intérieur de la fonction fléchée</li>
                 <li>Dès qu'il y aura une modification sur la constante à évaluer ou à analyser, le hook watch sera activé et procèdera aux instructions à l'intérieur. </li>
             </ol>
         </div>
