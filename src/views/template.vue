@@ -22,6 +22,14 @@
         <div class="procedures">
             <ol>
                 <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ol>
         </div>
 
@@ -33,8 +41,6 @@
             <p>... </p>
         </ExplicationsExemple>
 
-
-        <CreationComposant />
     </main>
 </div>
 </template>

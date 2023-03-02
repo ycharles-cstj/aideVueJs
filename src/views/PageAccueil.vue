@@ -36,6 +36,8 @@
                 <li> <RouterLink to="/props"><span>09</span> - Utilisation des props</RouterLink></li>
 
                 <li> <RouterLink to="/slot"><span>10</span> - Utilisation des slots dans un composant</RouterLink></li>
+
+                <li> <RouterLink to="/hook"><span>11</span> - Utilisation des hooks</RouterLink></li>
             </ul>
         </div>
     </main>
