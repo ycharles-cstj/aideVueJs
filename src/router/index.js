@@ -94,6 +94,11 @@ const router = createRouter({
       name: 'vonce',
       component: () => import("@/views/PageVOnce.vue"),
     },
+    {
+      path: '/preventdefault',
+      name: 'preventdefault',
+      component: () => import("@/views/PagePreventDefault.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top
