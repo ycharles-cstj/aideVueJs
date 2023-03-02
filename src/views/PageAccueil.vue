@@ -50,6 +50,8 @@
                 <li> <RouterLink to="/vshow"><span>16</span> - Utilisation de la directive v-show</RouterLink></li>
 
                 <li> <RouterLink to="/vonce"><span>17</span> - Utilisation de la directive v-once</RouterLink></li>
+
+                <li> <RouterLink to="/preventdefault"><span>18</span> - Utilisation de preventDefault( )</RouterLink></li>
             </ul>
         </div>
     </main>
