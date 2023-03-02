@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="js">
     // importations de l'application
     import TitreContent from "@/components/app/TitreContent/TitreContent.vue";
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
