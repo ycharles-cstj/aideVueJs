@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script setup>
     import TitreSection from "@/components/app/TitreSection/TitreSection.vue";
 </script>
 
