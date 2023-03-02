@@ -62,7 +62,7 @@
                 <li>Utiliser une interpolation à l'aide des { }</li>
                 <li>Dans la balise « script » du composant ou de la page, vous devez importer « computed » de 'vue' => import { computed } from 'vue'</li>
                 <li>Toujours dans la balise « script », vous devez ajouter une constante qui est égale à la méthode computed( )</li>
-                <li>La méthode computed( ) possède en paramètre une fonction flèchée qui retourne un résultat d'un calcul ou d'une concaténation</li>
+                <li>La méthode computed( ) possède en paramètre une fonction fléchée qui retourne un résultat d'un calcul ou d'une concaténation</li>
                 <li>On ajoute le nom de la constante à l'intérieur d'une interpolation à l'aide des doubles { }</li>
             </ol>
         </div>
