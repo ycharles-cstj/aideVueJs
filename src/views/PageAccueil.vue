@@ -34,6 +34,8 @@
                 <li> <RouterLink to="/directivevfor"><span>08</span> - Ajustement du défilement de la page à la navigation </RouterLink></li>
 
                 <li> <RouterLink to="/props"><span>09</span> - Utilisation des props</RouterLink></li>
+
+                <li> <RouterLink to="/slot"><span>10</span> - Utilisation des slots dans un composant</RouterLink></li>
             </ul>
         </div>
     </main>

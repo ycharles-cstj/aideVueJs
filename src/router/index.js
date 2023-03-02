@@ -54,6 +54,11 @@ const router = createRouter({
       name: 'props',
       component: () => import("@/views/PageProps.vue"),
     },
+    {
+      path: '/slot',
+      name: 'slot',
+      component: () => import("@/views/PageSlot.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top

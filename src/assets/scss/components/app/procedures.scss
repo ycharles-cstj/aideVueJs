@@ -5,6 +5,7 @@
 // Structure des procédures
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 div.procedures{
+    @include resetBox;
     //@include debug;
     @extend .col-md-12;
     padding: 32px;
