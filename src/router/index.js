@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'interpolationAvance',
       component: () => import("@/views/PageInterpolation.vue"),
     },
+    {
+      path: '/databinding',
+      name: 'databinding',
+      component: () => import("@/views/PageDataBinding.vue"),
+    },
   ]
 })
 

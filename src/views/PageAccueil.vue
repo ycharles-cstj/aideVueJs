@@ -22,6 +22,7 @@
                 <li> <RouterLink to="/souscomposant"><span>03</span> - Création d'un sous-composant </RouterLink></li>
                 <li> <RouterLink to="/datacomposant"><span>04</span> - Intégration et affichage des données dans un composant </RouterLink></li>
                 <li> <RouterLink to="/interpolation"><span>05</span> - Interpolations complexes </RouterLink></li>
+                <li> <RouterLink to="/databinding"><span>06</span> - Utilisation du data binding </RouterLink></li>
             </ul>
         </div>
     </main>
