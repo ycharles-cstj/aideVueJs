@@ -49,7 +49,11 @@ const router = createRouter({
       name: 'directivevfor',
       component: () => import("@/views/PageVFor.vue"),
     },
-    
+    {
+      path: '/props',
+      name: 'props',
+      component: () => import("@/views/PageProps.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top
