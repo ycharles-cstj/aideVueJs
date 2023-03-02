@@ -64,7 +64,6 @@
         <!-- Option 1 -->
         <p v-else> Peut aussi écrire : "Ne pas prendre en considération ce message"</p>
         <!-- Ou option 2, mais pas les 2 -->
-
     </main>
 </div>
 </template>
