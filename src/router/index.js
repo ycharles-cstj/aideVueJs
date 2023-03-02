@@ -89,6 +89,11 @@ const router = createRouter({
       name: 'vshow',
       component: () => import("@/views/PageVShow.vue"),
     },
+    {
+      path: '/vonce',
+      name: 'vonce',
+      component: () => import("@/views/PageVOnce.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

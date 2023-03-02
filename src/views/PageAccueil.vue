@@ -48,6 +48,8 @@
                 <li> <RouterLink to="/stylecondition"><span>15</span> - Utilisation des styles conditionnels</RouterLink></li>
 
                 <li> <RouterLink to="/vshow"><span>16</span> - Utilisation de la directive v-show</RouterLink></li>
+
+                <li> <RouterLink to="/vonce"><span>17</span> - Utilisation de la directive v-once</RouterLink></li>
             </ul>
         </div>
     </main>
