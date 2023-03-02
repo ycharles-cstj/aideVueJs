@@ -79,6 +79,11 @@ const router = createRouter({
       name: 'useevent',
       component: () => import("@/views/PageEvent.vue"),
     },
+    {
+      path: '/stylecondition',
+      name: 'stylecondition',
+      component: () => import("@/views/PageStyleCondition.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

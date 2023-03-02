@@ -31,7 +31,7 @@
 
                 <li> <RouterLink to="/ajustscroll"><span>07</span> - Ajustement du défilement de la page à la navigation </RouterLink></li>
 
-                <li> <RouterLink to="/directivevfor"><span>08</span> - Ajustement du défilement de la page à la navigation </RouterLink></li>
+                <li> <RouterLink to="/directivevfor"><span>08</span> - Duplication d'éléments avec la directive v-for </RouterLink></li>
 
                 <li> <RouterLink to="/props"><span>09</span> - Utilisation des props</RouterLink></li>
 
@@ -44,6 +44,8 @@
                 <li> <RouterLink to="/axios"><span>13</span> - Utilisation de la librairie Axios</RouterLink></li>
 
                 <li> <RouterLink to="/useevent"><span>14</span> - Utilisation des évènements</RouterLink></li>
+
+                <li> <RouterLink to="/stylecondition"><span>15</span> - Utilisation des styles conditionnels</RouterLink></li>
             </ul>
         </div>
     </main>
