@@ -69,6 +69,11 @@ const router = createRouter({
       name: 'hookroute',
       component: () => import("@/views/PageHookRoute.vue"),
     },
+    {
+      path: '/axios',
+      name: 'axios',
+      component: () => import("@/views/PageAxios.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

@@ -40,6 +40,8 @@
                 <li> <RouterLink to="/hook"><span>11</span> - Utilisation des hooks</RouterLink></li>
 
                 <li> <RouterLink to="/hookroute"><span>12</span> - Utilisation des hooks spécifiques aux routes</RouterLink></li>
+
+                <li> <RouterLink to="/axios"><span>13</span> - Utilisation de la librairie Axios</RouterLink></li>
             </ul>
         </div>
     </main>
