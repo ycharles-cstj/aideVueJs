@@ -38,6 +38,8 @@
                 <li> <RouterLink to="/slot"><span>10</span> - Utilisation des slots dans un composant</RouterLink></li>
 
                 <li> <RouterLink to="/hook"><span>11</span> - Utilisation des hooks</RouterLink></li>
+
+                <li> <RouterLink to="/hookroute"><span>12</span> - Utilisation des hooks spécifiques aux routes</RouterLink></li>
             </ul>
         </div>
     </main>
