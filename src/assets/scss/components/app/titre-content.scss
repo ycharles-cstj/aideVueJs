@@ -11,14 +11,6 @@ h2.titreContent{
     @include resetBox;
     margin-top: 64px; 
     margin-bottom: 32px;
-
-    &::after{
-        position: absolute;
-        width: 70%;
-        border-bottom: 3px solid #333;
-        content:"";
-        bottom: 28px;
-    }
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -40,6 +32,7 @@ h2.titreContent p.titre{
 
 h2.titreContent p{
     @include resetBox;
+    padding: 0 32px;
 
     &:last-of-type{
         margin-top: 16px;
