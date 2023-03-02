@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'datacomposant',
       component: () => import("@/views/PageIntegrationData.vue"),
     },
+    {
+      path: '/interpolation',
+      name: 'interpolationAvance',
+      component: () => import("@/views/PageInterpolation.vue"),
+    },
   ]
 })
 

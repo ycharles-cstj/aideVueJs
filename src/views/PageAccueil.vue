@@ -21,6 +21,7 @@
                 <li> <RouterLink to="/nouvellepage"><span>02</span> - Ajouter une page et une nouvelle route </RouterLink></li>
                 <li> <RouterLink to="/souscomposant"><span>03</span> - Création d'un sous-composant </RouterLink></li>
                 <li> <RouterLink to="/datacomposant"><span>04</span> - Intégration et affichage des données dans un composant </RouterLink></li>
+                <li> <RouterLink to="/interpolation"><span>05</span> - Interpolations complexes </RouterLink></li>
             </ul>
         </div>
     </main>
