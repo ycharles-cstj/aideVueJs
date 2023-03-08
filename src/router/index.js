@@ -99,6 +99,11 @@ const router = createRouter({
       name: 'preventdefault',
       component: () => import("@/views/PagePreventDefault.vue"),
     },
+    {
+      path: '/stoppropagation',
+      name: 'stoppropagation',
+      component: () => import("@/views/PageStopPropagation.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

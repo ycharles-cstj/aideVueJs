@@ -52,6 +52,8 @@
                 <li> <RouterLink to="/vonce"><span>17</span> - Utilisation de la directive v-once</RouterLink></li>
 
                 <li> <RouterLink to="/preventdefault"><span>18</span> - Utilisation de preventDefault( )</RouterLink></li>
+
+                <li> <RouterLink to="/stoppropagation"><span>19</span> - Utilisation de stopPropagation( )</RouterLink></li>
             </ul>
         </div>
     </main>
