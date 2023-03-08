@@ -23,24 +23,18 @@
 
         <div class="procedures">
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Utilisé principalement avec la balise &lt;a&gt;, elle retire son comportement relié à un évènement comme pour un  &lt;button&gt; ou un &lt;a&gt;</li>
+                <li>Dans une fonction relié au bouton ou au lien, on doit récupérer l'évènement dans le paramètre afin de le réutiliser dans les instructions en tant qu'objet</li>
+                <li>À L'aide de la synthaxe à point, on ajoute preventDefault( ) à cet objet => e.preventDefault();</li>
             </ol>
         </div>
 
         <TitreContent :titre="'Exemple'">
-            <p>Utilisation de preventDefault( ) sur un lien &lt;a> </p>
+            <p>Utilisation de preventDefault( ) sur un lien &lt;a&gt; </p>
         </TitreContent>
 
         <ExplicationsExemple>
-            <p>Le fait d'utiliser preventDefault( ) sur un lien utilisant la balise &lt;a> permet de supprimer l'action par défaut d'effectuer une redirection dans le fureteur ou l'ouverture d'un nouvel onglet si jamais le lien possède l'attribut target avec la valeur _blank à l'intérieur. </p>
+            <p>Le fait d'utiliser preventDefault( ) sur un lien utilisant la balise &lt;a&gt; permet de supprimer l'action par défaut d'effectuer une redirection dans le fureteur ou l'ouverture d'un nouvel onglet si jamais le lien possède l'attribut target avec la valeur _blank à l'intérieur. Il faut que l'élément ciblé par le preventDefault soit un élément ayant un évènement (un &lt;a&gt; ou un &lt;button&gt; par exemple) </p>
             <p>Le premier lien sera affecté par la méthode preventDefault( ) et il ne sera pas possible d'accéder à l'url. Tandis que pour l'autre lien, il sera possible de se rendre à l'url.</p>
         </ExplicationsExemple>
 
