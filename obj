@@ -1,0 +1,36 @@
+{
+    "id": 112,
+    "cup": "C9B53B06652E",
+    "titre": "Gros fromage",
+    "description": "Un gros fromage pour combler tes désirs les plus secrets",
+    "prix": "74.0",
+    "url": "http://magasin.mboudrea.tim-cstj.ca/api/produit/112",
+    "images": [
+        {
+            "200": {
+                "mime": "image/webp",
+                "largeur": 200,
+                "hauteur": 133,
+                "url": "http://magasin.mboudrea.tim-cstj.ca/images/produit/C9B53B06652E_63a276ebd8ec4_200.webp"
+            },
+            "400": {
+                "mime": "image/webp",
+                "largeur": 400,
+                "hauteur": 265,
+                "url": "http://magasin.mboudrea.tim-cstj.ca/images/produit/C9B53B06652E_63a276ebd8ec4_400.webp"
+            },
+            "800": {
+                "mime": "image/webp",
+                "largeur": 800,
+                "hauteur": 530,
+                "url": "http://magasin.mboudrea.tim-cstj.ca/images/produit/C9B53B06652E_63a276ebd8ec4_800.webp"
+            },
+            "original": {
+                "mime": "image/webp",
+                "largeur": 1139,
+                "hauteur": 755,
+                "url": "http://magasin.mboudrea.tim-cstj.ca/images/produit/C9B53B06652E_63a276ebd8ec4.webp"
+            }
+        }
+    ]
+}
