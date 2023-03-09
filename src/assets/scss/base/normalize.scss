@@ -12,7 +12,7 @@ html {
     letter-spacing: .105em;
     line-height: 1.4em;
     -webkit-text-size-adjust: 100%; /* 2 */
-
+    scroll-behavior: initial !important;
 }
 
 html, body{

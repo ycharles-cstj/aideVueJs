@@ -7,10 +7,23 @@ import FooterApp from '@/components/commun/FooterApp/FooterApp.vue'
 <template>
 <div class="structure">
   <HeaderApp />
-  <RouterView class="router-view" v-slot="{Component}">
-    <Transition name="page-slide" mode="out-in">
+  <RouterView class="router-view" v-slot="{Component, route}">
+    <Transition 
+        :enter-active-class="route.meta.enterClass" 
+        :leave-active-class="route.meta.leaveClass"
+        mode="out-in">
       <component :is="Component" />
     </Transition>
+
+    <!-- Avant de passer dans la route, pour toutes les pages
+    <RouterView class="router-view" v-slot="{Component}">
+    <Transition 
+        enter-active-class="animate__animated animate__fadeInLeft" 
+        leave-active-class="animate__animated animate__fadeOutLeft"
+        mode="out-in">
+      <component :is="Component" />
+    </Transition>
+    -->
   </RouterView>
   <FooterApp />
 </div>

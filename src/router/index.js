@@ -8,6 +8,10 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import("@/views/PageAccueil.vue"),
+      meta:{
+        enterClass:'animate__animated animate__fadeIn',
+        leaveClass:'animate__animated animate__fadeOutLeft'
+      }
     },
     {
       path: '/composant',
@@ -108,11 +112,19 @@ const router = createRouter({
       path: '/produit',
       name: 'produit.liste',
       component: () => import("@/views/PageProduits.vue"),
+      meta:{
+        enterClass:'animate__animated animate__fadeInLeft',
+        leaveClass:'animate__animated animate__zoomOut'
+      }
     },
     {
       path: '/produit/:id',
       name: 'produit.details',
       component: () => import("@/views/PageDetailProduit.vue"),
+      meta:{
+        enterClass:'animate__animated animate__fadeInLeft',
+        leaveClass:'animate__animated animate__zoomOut'
+      }
     },
   ],
   scrollBehavior() {
