@@ -104,6 +104,16 @@ const router = createRouter({
       name: 'stoppropagation',
       component: () => import("@/views/PageStopPropagation.vue"),
     },
+    {
+      path: '/produit',
+      name: 'produit.liste',
+      component: () => import("@/views/PageProduits.vue"),
+    },
+    {
+      path: '/produit/:id',
+      name: 'produit.details',
+      component: () => import("@/views/PageDetailProduit.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top
@@ -113,7 +123,6 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   window.scrollTo({top: 0});
-  console.log('////////////')
   next();
 });
 

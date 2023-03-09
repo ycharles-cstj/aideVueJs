@@ -1,0 +1,55 @@
+div.liste{
+    @include resetBox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //align-items: center;
+    justify-content: start;
+    width : 100%;
+}
+
+div.fiche-produits{
+    @include setFlex(row, start, start);
+    width: 100%;
+    height: 100%;
+    margin: 32px 0;
+    border: 3px black solid;
+
+    @include breakpoint-min(992){
+        width: calc(50% - 8px);
+
+        &:nth-child(odd){
+            margin-right: 16px;           
+        }
+    }
+
+    & div.wrapImg{
+        @include setFlex(column, center, center);
+        min-width:200px;
+        min-height:200px;
+
+        & img{
+            max-width:200px;
+            max-height: 200px;
+        }
+    }
+
+    & div.wrapInfo{
+        @include setFlex(column, space-between, start); 
+        width: 100%;
+        min-height: 200px;
+        padding: 16px;
+
+        & a{
+            display: block;
+            margin: 0 auto;
+            padding: 16px 32px;
+            border: 3px black solid;
+            border-radius: 4px;
+            background-color: #fafafa;
+            &:hover{
+                color: coral;
+            }
+        }
+    }
+}
