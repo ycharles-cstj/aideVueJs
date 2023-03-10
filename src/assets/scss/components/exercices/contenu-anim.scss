@@ -1,0 +1,14 @@
+div.contenu-anim{
+    width: 60%;
+    margin: 64px 0;
+    opacity: 0;
+    & p{
+        margin: 16px 0;
+        padding: 16px;
+        font-size: 1.2rem;
+        color : #333;
+        line-height: 1.8rem;
+        
+    }
+}
+

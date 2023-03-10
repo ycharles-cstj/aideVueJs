@@ -126,6 +126,11 @@ const router = createRouter({
         leaveClass:'animate__animated animate__zoomOut'
       }
     },
+    {
+      path: '/animejs',
+      name: 'animejs',
+      component: () => import("@/views/PageAnimeJs.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top

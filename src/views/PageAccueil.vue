@@ -56,6 +56,8 @@
                 <li> <RouterLink to="/stoppropagation"><span>19</span> - Utilisation de stopPropagation( )</RouterLink></li>
 
                 <li> <RouterLink to="/produit"><span>20</span> - Utilisation de la séquence de récupération du data - liste & détail</RouterLink></li>
+
+                <li> <RouterLink to="/animejs"><span>22</span> - Utilisation de la librairie Anime.js</RouterLink></li>
             </ul>
         </div>
     </main>
