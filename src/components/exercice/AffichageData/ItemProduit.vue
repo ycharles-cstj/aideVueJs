@@ -17,7 +17,9 @@ onMounted(() => {
         data.itemImg = '/src/assets/img/zerk.jpeg';
         console.log('pas d\'image')
     }else{
+        console.log(props.item.image)
         //data.produit.images[0].800.url
+
         data.itemImg = props.item.image.url
         console.log("j'ai des images")
     }

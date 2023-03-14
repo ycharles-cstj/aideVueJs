@@ -14,7 +14,6 @@
     function avertissement(){
         alert('// Message d\'erreur //')
     }
-
     function afficher(param){
         if(param == 'popup'){
             alert('La valeur du compteur est de '+ data.compteur);

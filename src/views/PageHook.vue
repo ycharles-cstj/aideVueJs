@@ -20,7 +20,11 @@
     })
 
     onBeforeMount(() => {
-        window.scrollTo({top: 0})
+        //window.scrollTo({top: 0})
+        console.log('Le composant va être monté')
+    })
+
+    onBeforeMount(() => {
         console.log('Le composant va être monté')
     })
 

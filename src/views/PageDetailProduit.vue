@@ -30,8 +30,8 @@
                 data.produitImg = '/src/assets/img/zerk.jpeg';
                 console.log('pas d\'image')
             }else{
-                data.produitImg = data.produit.images[0][800].url
-                //data.produitImg = data.produit.images[0].original.url
+                //data.produitImg = data.produit.images[0][800].url
+                data.produitImg = data.produit.images[0].taille_800.url
                 console.log("j'ai des images")
             }
         });
@@ -56,8 +56,6 @@
                     <RouterLink :to="{name: 'produit.liste'}" >Retour à la liste</RouterLink>
                 </div>
             </div>
-
-            
         </div>
     </main>
 </div>
