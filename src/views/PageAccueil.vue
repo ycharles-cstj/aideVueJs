@@ -58,6 +58,8 @@
                 <li> <RouterLink to="/produit"><span>20</span> - Utilisation de la séquence de récupération du data - liste & détail</RouterLink></li>
 
                 <li> <RouterLink to="/animejs"><span>22</span> - Utilisation de la librairie Anime.js</RouterLink></li>
+
+                <li> <RouterLink to="/redirection"><span>23</span> - Redirection d'une route par programmation</RouterLink></li>
             </ul>
         </div>
     </main>

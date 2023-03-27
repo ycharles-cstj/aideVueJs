@@ -131,6 +131,11 @@ const router = createRouter({
       name: 'animejs',
       component: () => import("@/views/PageAnimeJs.vue"),
     },
+    {
+      path: '/redirection',
+      name: 'redirection',
+      component: () => import("@/views/PageRedirection.vue"),
+    },
   ],
   scrollBehavior() {
     // always scroll to top
